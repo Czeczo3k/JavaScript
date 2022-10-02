@@ -1,1 +1,2 @@
-# JavaScript elo to ja michał
+# JavaScript
+Michał Czeczora 3k
