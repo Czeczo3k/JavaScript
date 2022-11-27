@@ -1,0 +1,46 @@
+<!-- Michał Czeczora 3K -->
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+ <script language="JavaScript">
+  var liczba1=prompt("a=","");
+  var liczba2=prompt("b=","");
+  var liczba3=prompt("c=","");
+  
+  var a_cze=parseFloat(liczba1);
+  var b_cze=parseFloat(liczba2);
+  var c_cze=parseFloat(liczba3);
+
+ document.write("A= "+a_cze.toFixed(2)+" cm"+"<br>");
+ document.write("B= "+b_cze.toFixed(2)+" cm"+"<br>");
+ document.write("C= "+c_cze.toFixed(2)+" cm"+"<br>");
+ 
+ h1=b_cze
+ document.write("h1= "+h1.toFixed(2)+" cm"+"<br>");
+ h2=c_cze
+ document.write("h2= "+h2.toFixed(2)+" cm"+"<br>");
+ h3=(a_cze*b_cze)/c_cze
+ document.write("h3= "+h3.toFixed(2)+" cm"+"<br>");
+ 
+ sin_alfa=b_cze/c_cze;
+ document.write("sin(alfa)= "+sin_alfa.toFixed(3)+" cm"+"<br>");
+ 
+ cos_alfa=a_cze/c_cze;
+ document.write("cos(alfa)= "+cos_alfa.toFixed(3)+" cm"+"<br>");
+ 
+ tg_alfa=b_cze/a_cze; 
+ document.write("tg(alfa)= "+tg_alfa.toFixed(3)+" cm"+"<br>");
+ 
+ ctg_alfa=a_cze/b_cze;
+ document.write("ctg(alfa)= "+ctg_alfa.toFixed(3)+" cm"+"<br>");
+ 
+ alfa=Math.asin(b_cze/c_cze)*(180/Math.PI);
+ document.write("alfa= "+alfa.toFixed(2)+" st."+"<br>");
+ 
+ beta=90-alfa
+ document.write("beta= "+beta.toFixed(2)+" st."+"<br>");
+ </script>
+ </div>
+</body>
+</html>
+<!-- Michał Czeczora 3K -->
